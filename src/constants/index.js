@@ -8,7 +8,7 @@
  */
 // console.error("Modify this property to reflect your app's API key, then comment this line out.");
 export const API_KEY = 'appl_QSCZbHGeuxEXluBEtIMVhlWuyuk';
-
+ 
 /*
  The entitlement ID from the RevenueCat dashboard that is activated upon successful in-app purchase for the duration of the purchase.
  */
