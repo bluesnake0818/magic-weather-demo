@@ -62,7 +62,7 @@ const WeatherScreen = () => {
 
       {/* The magic button that is disabled behind our paywall */}
       <Pressable onPress={performMagic} style={styles.changeWeatherButton}>
-        <Text style={styles.changeWeatherTitle}>✨ Change the Weather</Text>
+        <Text style={styles.changeWeatherTitle}>✨ Modify the Weather</Text>
       </Pressable>
 
     </View>
