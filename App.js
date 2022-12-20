@@ -11,16 +11,16 @@ import React, { useEffect } from 'react';
 import { StatusBar } from 'react-native';
 import 'react-native-gesture-handler';
 import Purchases from 'react-native-purchases';
-import { API_KEY } from './src/constants';
+import { API_KEY } from './constants';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import PaywallScreen from './src/screens/PaywallScreen';
-import UserScreen from './src/screens/UserScreen';
-import WeatherScreen from './src/screens/WeatherScreen'
+import PaywallScreen from './screens/PaywallScreen';
+import UserScreen from './screens/UserScreen';
+import WeatherScreen from './screens/WeatherScreen'
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
